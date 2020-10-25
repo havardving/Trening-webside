@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+header {
+    background-color: #f1f1f1;
+    
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+float: right;
+background-color: #f1f1f1;
+display: block;
+height: 100%;
+}
+
+li {
+    margin: 15px;
+    display: inline-block; 
+    width: 200px;
+}
+
+li a {
+    display: block;
+    width: 100%;
+    color: #000;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.subcontainer {
+    width: 49,5%;
+    display: inline-block;
+}
+
+#navbar {
+    float: right;
+}
+
+.information-container {
+float: left;
+width: 100%;
+position: relative;
+margin: 20px;
+text-align: left;
+padding-left: 200px;
+height: 150px;
+}
+
+.information-container h2 {
+    text-align: left;
+    margin-left: 300px;
+    font-style: 'Staatliches', 'sans-serif';
+}
+
+.information-container p {
+    text-align: left;
+    margin-left: 300px;
+    font-style: 'Staatliches', 'sans-serif';
+}
+
+footer {
+    background-color: dimgray;
+    position: relative;
+    margin: 1000px;
+    bottom: 0;
+    padding: 60px;
+    width: 100%;
+}
